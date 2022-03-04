@@ -1,0 +1,47 @@
+body{
+   /* background-position: center;*/
+
+}
+.dull{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.box{
+     width: 200px;
+     height: 120px;
+     border: 1px solid tomato;
+     border-radius: 10px;
+     box-shadow: 2px 2px slategrey;
+}
+p{
+    color: red;
+    margin-left: 50px;
+}
+.set{
+    width: 150px;
+    height: 20px;
+    margin-left: 20px;
+
+}
+.let{
+    background-color:tomato;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.net{
+    justify-content: center;
+    
+}
+img{
+    filter: blur(10px);
+}
+@media screen and (max-width:640px){
+    .round{
+        position: absolute;
+        top: -50px;
+        right: 870px;
+    }
+    
+}
